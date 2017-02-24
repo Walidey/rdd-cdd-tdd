@@ -5,7 +5,7 @@ this programe can give the weather in the city of your choice in Celsius or Fahr
 
 ## Exemple
 
-node cli.js <city> <country> <F/C>
+node cli.js city country  F or C
 
 ### exemple 
 
