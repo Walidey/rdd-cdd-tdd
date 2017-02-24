@@ -16,8 +16,8 @@ Temperature: 49F*
 
 ## Install
 
-1 npm install yql 1
-2 np1 m install update-notifier 2 
-3 npm install meow 3
+*npm install yql 
+* np1 m install update-notifier 2 
+* npm install meow 3
 
 # cli-weather
