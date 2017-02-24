@@ -20,6 +20,6 @@ node cli.js paris france C
 ## Install
 
 * npm install yql 
-* np1 m install update-notifier 2 
-* npm install meow 3
+* np1 m install update-notifier
+* npm install meow
 
