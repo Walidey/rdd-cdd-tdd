@@ -39,7 +39,7 @@ weather(cli.input, (err, result) => {
 
 	let condition = result.query.results.channel.item.condition.text;
 	let temperature;
-
+	//return the temperature in the wanted format
 	if (cli.input[2] && cli.input[2] === 'C') {
 		temperature = _toCelcius(result.query.results.channel.item.condition.temp) + 'C';
 	} else if (cli.input[2] && cli.input[2] === 'F') {
@@ -50,7 +50,7 @@ weather(cli.input, (err, result) => {
 
 	let city = cli.input[0] ? cli.input[0] : 'Dhaka';
 	let country = cli.input[1] ? cli.input[1] : 'Bangladesh';
-
+	// print the result 
 	console.log(chalk.red(city + ', ' + country));
 	console.log(chalk.cyan('Condition: ' + chalk.yellow(condition)));
 	console.log(chalk.cyan('Temperature: ' + chalk.yellow(temperature)));
