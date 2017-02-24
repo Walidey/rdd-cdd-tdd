@@ -10,17 +10,14 @@ node cli.js <city> <country> <F/C>
 ### exemple 
 
 node cli.js paris france C 
-
-*Italic characters* 
-Paris, france
+*Paris, france
 Condition: Mostly Sunny
-Temperature: 49F
-*Italic characters* 
+Temperature: 49F*
 
 ## Install
 
-npm install yql
-npm install update-notifier
-npm install meow
+1 npm install yql 1
+2 np1 m install update-notifier 2 
+3 npm install meow 3
 
 # cli-weather
